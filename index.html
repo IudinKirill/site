@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Slyder</h1>
+    <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="pictures/pic1.jpg">
+          <div class="text">Шар кратер</div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="pictures/pic2.jpg">
+          <div class="text">Черная дыра</div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="pictures/pic3.jpg">
+          <div class="text">Планета свечение</div>
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="pictures/pic4.jpg">
+            <div class="text">Планета луч</div>
+          </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
